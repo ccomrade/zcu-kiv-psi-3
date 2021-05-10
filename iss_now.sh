@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 iss_data=$(http 'api.open-notify.org/iss-now.json')
 
 iss_lat=$(echo "$iss_data" | jq -r '.iss_position.latitude')
