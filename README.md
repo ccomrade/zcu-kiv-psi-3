@@ -1,6 +1,6 @@
 # zcu-kiv-psi-3
 
-This is the third KIV/PSI project. A simple REST client that uses public web APIs to obtain the current location of the
+This is the third KIV/PSI project. A simple REST client that uses public web APIs to get the current location of the
 [ISS](https://en.wikipedia.org/wiki/International_Space_Station).
 
 ## Implementation
